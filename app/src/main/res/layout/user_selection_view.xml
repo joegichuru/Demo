@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="1dp"
+    android:layout_margin="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <Spinner
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:id="@+id/region_spinner"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <Spinner
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:id="@+id/product_spinner"
+                android:layout_height="wrap_content"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <Spinner
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:id="@+id/sku_spinner"
+                android:layout_height="wrap_content"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
